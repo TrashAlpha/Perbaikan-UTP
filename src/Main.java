@@ -6,10 +6,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         //Do your magic here...
-        // Sebagai input dari pengguna untuk memesan tiket konser
+        // Digunakan Scanner untuk memungkinkan input dari pengguna
         Scanner input = new Scanner(System.in);
         System.out.println("Selamat datang di Pemesanan Tiket!");
 
+        // Input nama pengguna
         System.out.print("Masukkan nama pemesan: ");
         String nama = input.nextLine();
 
