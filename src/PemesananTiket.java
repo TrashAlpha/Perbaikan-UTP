@@ -11,7 +11,7 @@ class PemesananTiket {
 
   // Method untuk mencetak nota pesanan tiket
   public void cetakNota() {
-    System.out.println("\n---- Detail Pemesanan ----");
+    System.out.println("\n----- Detail Pemesanan -----");
     System.out.println("Nama Pemesan: " + this.nama);
     System.out.println("Kode Booking: " + Main.generateKodeBooking());
     System.out.println("Tanggal Pesanan: " + Main.getCurrentDate());
