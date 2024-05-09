@@ -3,6 +3,7 @@ class PemesananTiket {
   private String nama;
   private TiketKonser tiket;
 
+  // Constructor untuk inisialisasi nama pemesan dan jenis tiket
   public PemesananTiket(String nama, TiketKonser tiket) {
     this.nama = nama;
     this.tiket = tiket;
